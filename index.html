@@ -1,0 +1,948 @@
+<!Doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<title>Guide List</title>
+  </head>
+
+  <body>
+    <div> <!--Headings-->
+      <h2>Elemento Headings &lt;h1> - &lt;h6> </h2>
+      <p>Tenemos 6 niveles de Headings, los utilizamos para indicar la</p>
+      <p>prioridad de los encabezados, van de mayor interés a menor interés.</p>
+
+      <h1>Este es un encabezado de primer nivel</h1>
+      <pre>
+        <code>
+          &lt;h1>Este es un encabezado de primer nivel&lt;/h1>
+        </code>
+      </pre>
+
+      <h2>Este es un encabezado de segundo nivel</h2>
+      <pre>
+        <code>
+          &lt;h2>Este es un encabezado de segundo nivel&lt;/h2>
+        </code>
+      </pre>
+
+      <h3>Este es un encabezado de tercer nivel</h3>
+      <pre>
+        <code>
+          &lt;h3>Este es un encabezado de tercer nivel&lt;/h3>
+        </code>
+      </pre>
+
+      <h4>Este es un encabezado de cuarto nivel</h4>
+      <pre>
+        <code>
+          &lt;h4>Este es un encabezado de cuarto nivel&lt;/h4>
+        </code>
+      </pre>
+
+      <h5>Este es un encabezado de quinto nivel</h5>
+      <pre>
+        <code>
+          &lt;h5>Este es un encabezado de quinto nivel&lt;/h5>
+        </code>
+      </pre>
+
+      <h6>Este es un encabezado de sexto nivel</h6>
+      <pre>
+        <code>
+          &lt;h6>Este es un encabezado de sexto nivel&lt;/h6>
+        </code>
+      </pre>
+    </div>
+    <hr>
+    <div> <!--paragraph-->
+      <h2>Elemento Párrafo &lt;p></h2>
+      <p>Se utiliza cuando queremos ingresar texto</p>
+
+      <p>Este es un párrafo</p>
+      <pre>
+        <code>
+          &lt;p>Este es un párrafo&lt;/p>
+        </code>
+      </pre>
+
+      <p>Dentro de los párrafos podemos usar elementos para dar importancia, relevancia o énfasis a una palabra en especifico</p>
+
+      <p>Esto es un <b>EJEMPLO</b> de resaltado</p>
+      <p>Esto es un <strong>EJEMPLO</strong> de importancia</p>
+      <pre>
+        <code>
+          &lt;p>Esto es un &lt;b>EJEMPLO&lt;/b> de resaltado&lt;/p>
+          &lt;p>Esto es un &lt;strong>EJEMPLO&lt;/strong> de importancia&lt;/p>
+        </code>
+      </pre>
+
+      <p>Dentro de los párrafos también podemos usar enlaces para que, si hacemos clic, en una palabra</p>
+      <p>en específico nos envié a una página o una referencia, externa a la página o dentro de la misma pagina.</p>
+
+      <h3>Ejemplo:</h3>
+      <p>Si desea saber más sobre los elementos que se pueden utilizar en los párrafos <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><b>HAGA CLICK AQUI</b></a></p>
+      <pre>
+        <code>
+          &lt;p>Si desea saber más sobre los elementos que se pueden utilizar en los párrafos &lt;a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HAGA CLICK AQUI&lt;/a>&lt;/p>
+        </code>
+      </pre>
+    </div> 
+    <hr>
+    <div> <!--Lists-->
+      <h2>Elemento Listas</h2>
+      <p>Se utilizan cuando queremos enlistar algo, y tenemos 3 tipos:</p>
+
+      <ul>
+        <li>Ordenadas</li>
+        <li>Desordenadas</li>
+        <li>De definiciones</li>
+      </ul>
+
+      <h4>Listas Ordenadas</h4>
+      <ol>
+        <li>Elemento#1</li>
+        <li>Elemento#2</li>
+        <li>Elemento#3</li>
+        <li>Elemento#4</li>
+      </ol>
+      <pre>
+        <code>
+          &lt;ol>
+            &lt;li>Elemento#1&lt;/li>
+            &lt;li>Elemento#2&lt;/li>
+            &lt;li>Elemento#3&lt;/li>
+            &lt;li>Elemento#4&lt;/li>
+          &lt;/ol>
+        </code>
+      </pre>
+
+      <h4>Listas Desordenadas o sin numeración</h4>
+      <ul>
+        <li>Elemento#1</li>
+        <li>Elemento#2</li>
+        <li>Elemento#3</li>
+        <li>Elemento#4</li>
+      </ul>
+      <pre>
+        <code>
+          &lt;ul>
+            &lt;li>Elemento#1&lt;/li>
+            &lt;li>Elemento#2&lt;/li>
+            &lt;li>Elemento#3&lt;/li>
+            &lt;li>Elemento#4&lt;/li>
+          &lt;/ul>
+        </code>
+      </pre>
+      
+      <h4>Listas de definiciones</h4>
+      <dl>
+        <dt>HTML:</dt>
+        <dd>Hipertext Markup Language</dd>
+        <dt>CSS:</dt>
+        <dd>Cascading Style Sheets</dd>
+        <dt>http:</dt>
+        <dd>Hypertext Transfer Protocol</dd>
+      </dl>
+      <pre>
+        <code>
+          &lt;dl>
+            &lt;dt>HTML:&lt;/dt>
+            &lt;dd>Hipertext Markup Language&lt;/dd>
+            &lt;dt>CSS:&lt;/dt>
+            &lt;dd>Cascading Style Sheets&lt;/dd>
+            &lt;dt>http:&lt;/dt>
+            &lt;dd>Hypertext Transfer Protocol&lt;/dd>
+          &lt;/dl>
+        </code>
+      </pre>
+    </div>
+    <hr>
+    <div> <!--images-->
+      <h2>Elementos Imagenes &lt;img></h2>
+      <p>Si lo deseamos se pueden insertar imágenes en las paginas</p>
+      <p>imágenes:</p>
+      <p>imágen 1</p>
+      <img src="imagenes/1.jpg">
+      <pre>
+        <code>
+          &lt;img src="imagenes/1.jpg"> (URL donde esta almacenada la imagen) 
+        </code>
+      </pre>
+      <p>imágen 2</p>
+      <img src="imagenes/2.png">
+      <pre>
+        <code>
+          &lt;img src="imagenes/2.png"> (URL donde esta almacenada la imagen)
+        </code>
+      </pre>
+    </div>
+    <hr>
+    <div><!--main, introduction-->
+      <h2>Etiqueta &lt;main></h2>
+      <p>Si queremos representar el contenido principal, dominante o central en el body utilizamos la etiqueta <b>&lt;main></b></P>
+      <p>Ejemplo: Tematica central</p>
+    </div>
+
+    <main> 
+      <h3>Los Husky siberianos</h3>
+      <p>Este perro fue creado por la tribu Chukchi como perro de trabajo</p> 
+      <p>para tirar de los trineos a través de largas distancias durante</p> 
+      <p>sus partidas de caza, sirviendo, así como vehículo de transporte</p> 
+      <p>rápido para las presas de la vuelta al poblado.</p>
+    </main>
+
+    <pre>
+      <code>
+        &lt;main>
+          &lt;h3>Los Husky siberianos&lt;/h3>
+          &lt;p>Este perro fue creado por la tribu Chukchi como perro de trabajo&lt;/p> 
+          &lt;p>para tirar de los trineos a través de largas distancias durante&lt;/p> 
+          &lt;p>sus partidas de caza, sirviendo, así como vehículo de transporte&lt;/p> 
+          &lt;p>rápido para las presas de la vuelta al poblado.&lt;/p>
+        &lt;/main>
+      </code>
+    </pre>
+    <hr>
+    <div><!--header, introduction-->
+      <h2>Etiqueta &lt;header></h2>
+      <p>Si queremos representar contenido introductorio, un grupo de ayudas introductorias o de navegación. 
+      <p>Utilizamos la etiqueta <b>&lt;header></b></p>
+      <p>Ejemplo: Contenido Introductorio: Puede ser el titulo de un articulo</p>
+    </div>
+
+    <header>
+      <h3>Los Husky siberianos</h3>
+    </header>
+
+    <pre>
+      <code>
+        &lt;header>
+          &lt;h3>Los Husky siberianos</h3>
+        &lt;/header>    
+      </code>
+    </pre>
+    <hr>
+    <div><!--article, introduction-->
+      <h2>Etiqueta &lt;article></h2>
+      <p>Utilizamos esta etiqueta para representa una composición independiente en un documento</p>
+      <p>página, aplicación o sitio, que está destinado a ser distribuible o reutilizable de forma</p> 
+      <p>independiente. Los ejemplos incluyen: una publicación en un foro, un artículo de revista</p> 
+      <p>o periódico, o una entrada de blog, etc.</p>
+      <p>Ejemplo: puede ser un articulo en un blog.</p>
+    </div>
+
+    <article>
+      <header>
+        <h3>A Perfect Table of Contents With HTML + CSS</h3>
+      </header>
+
+      <p>Al decidir sobre el marcado correcto para una tabla de contenido, pensé principalmente en la semántica correcta.</p>
+      <p>Fundamentalmente, una tabla de contenido se trata de un título (capítulo o subsección) vinculado a un número de página</p>
+      <p>casi como un par clave-valor. Eso me llevó a dos opciones:</p>
+
+      <footer>
+        <p>Nicholas C. Zakas</p>
+      </footer>
+    </article>
+
+    <pre>
+      <code>
+        &lt;article>
+          &lt;header>
+            &lt;h3>A Perfect Table of Contents With HTML + CSS&lt;/h3>
+          &lt;/header>
+    
+          &lt;p>Al decidir sobre el marcado correcto para una tabla de contenido, pensé principalmente en la semántica correcta.&lt;/p>
+          &lt;p>Fundamentalmente, una tabla de contenido se trata de un título (capítulo o subsección) vinculado a un número de página&lt;/p>
+          &lt;p>casi como un par clave-valor. Eso me llevó a dos opciones:&lt;/p>
+    
+          &lt;footer>
+            &lt;p>Nicholas C. Zakas&lt;/p>
+          &lt;/footer>
+        &lt;/article>  
+      </code>
+    </pre>
+    <hr>
+
+    <div><!--footer, introduction-->
+      <h2>Etiqueta &lt;footer></h2>
+      <p>Utilizamos normalmente esta etiqueta para agregar información sobre el autor de la sección, datos de derechos de autor</p>
+      <p>enlaces a documentos relacionados.</p>
+      <p>Ejemplo: Autor de un articulo o publicacion en en un blog.</p>
+    </div>
+
+    <footer>
+      <p>Nicholas C. Zakas</p>
+    </footer>
+
+    <pre>
+      <code>
+        &lt;footer>
+          &lt;p>Nicholas C. Zakas &lt;/p>
+        &lt;/footer>   
+      </code>
+    </pre>
+    <hr>
+    
+    <div><!--aside, introduction-->
+      <h2>Etiqueta &lt;aside></h2>
+      <p>Utilizamos esta etiqueta para representar una parte de un documento cuyo contenido solo está indirectamente relacionado</p>
+      <p>con el contenido principal del documento. Se presentan con frecuencia como barras laterales o cuadros de llamada.</p>
+      <p>Ejemplo:</p>
+    </div>
+
+    <div><!--aside, text-->
+      <p>Las salamandras son un grupo de anfibios con apariencia de lagarto</p>
+      <p>que incluyen patas cortas y cola tanto en forma de larva como de adulto.</p>
+    </div>
+
+    <aside>
+      <p>El tritón de piel áspera se defiende con una neurotoxina mortal.</p>
+    </aside>
+
+    <div><!--aside, text-->
+      <p>Varias especies de salamandras habitan en la selva tropical templada del noroeste del Pacífico</p>
+      <p>incluidas la ensatina, la salamandra del noroeste y el tritón de piel áspera. La mayoría de las</p>
+      <p>salamandras son nocturnas y cazan insectos, gusanos y otras criaturas pequeñas.</p>
+    </div>
+
+    <pre>
+      <code>
+        &lt;p>Las salamandras son un grupo de anfibios con apariencia de lagarto&lt;/p>
+        &lt;p>que incluyen patas cortas y cola tanto en forma de larva como de adulto.&lt;/p>
+        
+        &lt;aside>
+          &lt;p>El tritón de piel áspera se defiende con una neurotoxina mortal.&lt;/p>
+        &lt;/aside>
+        
+        &lt;p>Varias especies de salamandras habitan en la selva tropical templada del noroeste del Pacífico&lt;/p>
+        &lt;p>incluidas la ensatina, la salamandra del noroeste y el tritón de piel áspera. La mayoría de las&lt;/p>
+        &lt;p>salamandras son nocturnas y cazan insectos, gusanos y otras criaturas pequeñas.&lt;/p> 
+      </code>
+    </pre>
+    <hr>
+
+
+    <div><!--nav, introduction-->
+      <h2>Etiqueta &lt;nav></h2>
+      <p>Utilizamos esta etiqueta para representar una sección de una página cuyo propósito es proporcionar enlaces de navegación</p>
+      <p>ya sea dentro del documento actual o hacia otros documentos. Ejemplos comunes, menús, las tablas de contenido y los índices.</p>
+    </div>
+   
+    <nav>
+      <ol>
+          <li><a href="imagenes/1.jpg">Html5 ilustracion</a></li>
+          <li><a href="imagenes/2.png">css ilustracion</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav">definicion y ejemplo de nav</a></li>
+      </ol>
+    </nav>
+
+    <pre>
+      <code>
+        &lt;nav>
+          &lt;ol>
+            &lt;li>&lt;a href="imagenes/1.jpg">Html5 ilustracion&lt;/a>&lt;/li>
+            &lt;li>&lt;a href="imagenes/2.png">css ilustracion&lt;/a>&lt;/li>
+            &lt;li>&lt;a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav">definicion y ejemplo de nav&lt;/a>&lt;/li>
+          &lt;/ol>
+        &lt;/nav>  
+      </code>
+    </pre>
+    <hr>
+
+    <div><!--section, introduction-->
+      <h2>Etiqueta &lt;section></h2>
+      <p>Utilizamos esta etiqueta para representar una sección independiente genérica de un documento, que no tiene un elemento
+      <p>semántico más específico para representarla. Las secciones siempre deben tener un encabezado, con muy pocas excepciones.</p>
+      <p>Ejemplo:</p>
+  
+      <h3>Elegir una manzana</h3>
+    </div>
+
+    <section>
+     <h3>Introducción</h3>
+     <p>Este documento proporciona una guía para ayudar con la importante tarea de elegir una manzana correcto.</p>
+    </section>
+
+    <section>
+     <h3>Criterios</h3>
+     <p>Hay muchos criterios diferentes a tener en cuenta al elegir una manzana: tamaño, color, firmeza, dulzura, acidez...</p>
+    </section>
+
+    <pre>
+      <code>
+        &lt;h3>Elegir una manzana&lt;/h3>
+        &lt;section>
+          &lt;h3>Introducción&lt;/h3>
+          &lt;p>Este documento proporciona una guía para ayudar con la importante tarea de elegir una manzana correcto.&lt;/p>
+        &lt;/section>
+    
+        &lt;section>
+          &lt;h3>Criterios&lt;/h3>
+          &lt;p>Hay muchos criterios diferentes a tener en cuenta al elegir una manzana: tamaño, color, firmeza, dulzura, acidez...&lt;/p>
+       &lt;/section> 
+      </code>
+    </pre>
+
+    <hr>
+
+    <div><!--address, introduction-->
+      <h2>Etiqueta &lt;address></h2>
+      <p>Utilizamos esta etiqueta para proporcionar información de contacto para una persona, personas o una organización.</p>
+      <p>Ejemplo:</p>
+      <p>Contacta con la fundacion Omar Dengo</p>
+    </div>
+
+    <address>
+      <p>CENTRAL TELEFÓNICA</p>>
+      <a href="tel:+50625276000">(+506)2527-6000</a>
+      <a href="tel:+50625276001">(+506)2527-6001</a>
+    </address>
+
+    <pre>
+      <code>
+        &lt;address>
+          &lt;p>CENTRAL TELEFÓNICA&lt;/p>
+          &lt;a href="tel:+50625276000">(+506)2527-6000&lt;/a>
+          &lt;a href="tel:+50625276001">(+506)2527-6001&lt;/a>
+        &lt;/address>
+      </code>
+    </pre>
+
+    <hr>
+
+    <div><!--time-->
+      <h2>Etiqueta &lt;time></h2>
+      <p>Utilizamos esta etiqueta para representar un período específico en el tiempo.</p>
+      <p>Ejemplo:</p>
+
+      <p>The Cure celebrará su 40 aniversario el<time datetime="2018-07-07"> 7 de Julio</time> in London's Hyde Park.</p>
+      <p>el concierto empieza a las<time datetime="20:00"> 20:00</time> y podrás disfrutar de la banda durante al menos<time datetime="PT2H30M">2h 30m</time>.</p>
+    </div>
+
+    <pre>
+      <code>
+        &lt;p>The Cure celebrará su 40 aniversario el&lt;time datetime="2018-07-07"> 7 de JUlio&lt;/time> in London's Hyde Park.&lt;/p>
+        &lt;p>el concierto empieza a las&lt;time datetime="20:00"> 20:00&lt;/time> y podrás disfrutar de la banda durante al menos&lt;time datetime="PT2H30M">2h 30m&lt;/time>.&lt;/p>
+      </code>
+    </pre>
+
+    <hr>
+
+
+    <div><!--table, introduction-->
+      <h2>Etiqueta &lt;table></h2>
+      <p>Utilizamos esta etiqueta para crear tablas, y presentar informacion de una forma estructurada</p>
+      <p>Ejemplo:</p>
+    </div>
+
+    <table>
+      <caption>Valoracion deportiva Juegos Nacionales</caption>
+      <thead>
+        <tr>
+          <th scope="col">Deporte</th>
+          <th scope="col">Evento</th>
+          <th scope="col">Posicion</th>
+          <th scope="col">Medalla</th>
+          <th scope="col">Puntos</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Row</td>
+          <td>Doble Par</td>
+          <td>Primero</td>
+          <td>Oro</td>
+          <td>10</td>
+        </tr>
+
+        <tr>
+          <td>Natacion</td>
+          <td>200m Marp</td>
+          <td>Cuarto</td>
+          <td>-</td>
+          <td>7</td>
+        </tr>
+
+        <tr>
+          <td>Taekwondo</td>
+          <td>Kuriu -74kg</td>
+          <td>Tercero</td>
+          <td>Bronce</td>
+          <td>8</td>
+        </tr>
+        
+        <tr>
+          <td>Halterifilia</td>
+          <td>Snatch +74kg</td>
+          <td>Segundo</td>
+          <td>Plata</td>
+          <td>9</td>
+        </tr>
+
+        <tr>
+          <td>Judo</td>
+          <td>Cat abierta</td>
+          <td>Primero</td>
+          <td>Oro</td>
+          <td>10</td>
+        </tr>
+
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <th scope="row">Resultado final</th>
+          <td>44p</td>
+          <td>Buen rendimiento</td>
+        </tr>
+      </tfoot>
+
+    </table>
+
+    <pre>
+      <code>
+        &lt;table>
+          &lt;caption> Valoracion deportiva Juegos Nacionales &lt;/caption>
+          &lt;thead>
+            &lt;tr>
+              &lt;th scope="col">Deporte&lt;/th>
+              &lt;th scope="col">Evento&lt;/th>
+              &lt;th scope="col">Posicion&lt;/th>
+              &lt;th scope="col">Medalla&lt;/th>
+              &lt;th scope="col">Puntos&lt;/th>
+            &lt;/tr>
+          &lt;/thead>
+    
+          &lt;tbody>
+            &lt;tr>
+              &lt;td>Row&lt;/td>
+              &lt;td>Doble Par&lt;/td>
+              &lt;td>Primero&lt;/td>
+              &lt;td>Oro&lt;/td>
+              &lt;td>10&lt;/td>
+            &lt;/tr>
+    
+            &lt;tr>
+              &lt;td>Natacion&lt;/td>
+              &lt;td>200m Marp&lt;/td>
+              &lt;td>Cuarto&lt;/td>
+              &lt;td>-&lt;/td>
+              &lt;td>7&lt;/td>
+            </tr>
+    
+            &lt;tr>
+              &lt;td>Taekwondo&lt;/td>
+              &lt;td>Kuriu -74kg&lt;/td>
+              &lt;td>Tercero&lt;/td>
+              &lt;td>Bronce&lt;/td>
+              &lt;td>8&lt;/td>
+            &lt;/tr>
+            
+            &lt;tr>
+              &lt;td>Halterifilia&lt;/td>
+              &lt;td>Snatch +74kg&lt;/td>
+              &lt;td>Segundo&lt;/td>
+              &lt;td>Plata&lt;/td>
+              &lt;td>9&lt;/td>
+            &lt;/tr>
+    
+            &lt;tr>
+              &lt;td>Judo&lt;/td>
+              &lt;td>Cat abierta&lt;/td>
+              &lt;td>Primero&lt;/td>
+              &lt;td>Oro&lt;/td>
+              &lt;td>10&lt;/td>
+            &lt;/tr>
+    
+          &lt;/tbody>
+    
+          &lt;tfoot>
+            &lt;tr>
+              &lt;th scope="row">Resultado final&lt;/th>
+              &lt;td>44p&lt;/td>
+              &lt;td>Buen rendimiento&lt;/td>
+            &lt;/tr>
+          &lt;/tfoot>
+        &lt;/table>
+      </code>
+    </pre>
+    <hr>
+
+    <div><!--Forms elements-->
+      <h2>Elementos Formularios</h2>
+      <p>
+        Tenemos varios elementos para realizar formularios.<br>
+        Algunos de estos Son:<br>
+      </p>
+      <ul>
+        <li>input y label ("text", "checkbox" y "radio")</li>
+        <li> fieldset y legend</li>
+        <li>select</li>
+        <li>textarea</li>
+      </ul>
+    </div>
+
+    <div><!--Input and label-->
+      <h3>Input y label</h3>
+      <p>
+        <strong>Input:</strong>Este elemento se usa para crear controles interactivos para formularios para aceptar datos del usuario.<br>
+        <strong>label:</strong>Este elemento representa un título para un elemento en una interfaz de usuario.<br>
+      </p>
+    </div>
+
+    <h3>Tipo "Text"</h3>
+    <form>
+      <label for="nom">Nombre
+        <input type="text" name="nom" id="nom">
+      </label>
+    </form>
+
+    <pre>
+      <code>
+        &lt;form>
+          &lt;label for="nom">Nombre
+            &lt;input type="text" name="nom" id="nom">
+          &lt;/label>
+        &lt;/form>
+      </code>
+    </pre>
+
+    <h3>Tipo "checkbox"</h3>
+    <form>
+      <label for="remo">Remo
+        <input type="checkbox" name="encues" id="remo">
+      </label>
+
+      <label for="judo">Judo
+        <input type="checkbox" name="encues" id="judo">
+      </label>
+    </form>
+
+    <pre>
+      <code>
+        &lt;form>
+          &lt;label for="remo">Remo
+            &lt;input type="checkbox" name="encues" id="remo">
+          &lt;/label>
+          &lt;label for="judo">Judo
+            &lt;input type="checkbox" name="encues" id="judo">
+          &lt;/label>
+        &lt;/form>
+      </code>
+    </pre>
+
+    <h3>Tipo "Radio"</h3>
+    <form>
+      <label for="azul">Azul
+        <input type="radio" name="colorfavorito" id="azul">
+      </label>
+
+      <label for="verde">Verde
+        <input type="radio" name="colorfavorito" id="verde">
+      </label>
+    </form>
+
+    <pre>
+      <code>
+        &lt;form>
+          &lt;label for="azul">Azul
+            &lt;input type="radio" name="colorfavorito" id="azul">
+          &lt;/label>
+          &lt;label for="verde">Verde
+            &lt;input type="radio" name="colorfavorito" id="verde">
+          &lt;/label>
+        &lt;/form>
+      </code>
+    </pre>
+
+    <div><!--Fielset and legend-->
+      <h3>Fieldset y Legend</h3>
+      <p>
+        <strong>Fieldset:</strong>Este elemento se utiliza para agrupar varios controles, así como etiquetas (&lt;label>) dentro de un formulario web.<br>
+        <strong>Legend:</strong>Este elemento representa un título para el contenido de su padre &lt;fieldset>.
+      </p>
+    </div>
+
+    <form>
+      <fieldset>
+        <legend>Color Favorito</legend>}
+
+        <label for="cafe">Café
+          <input type="radio" name="colorfavorito" id="cafe">
+        </label>
+        <br>
+        <label for="rojo">Rojo
+          <input type="radio" name="colorfavorito" id="rojo">
+        </label>
+        <br>
+        <label for="morado">Morado
+          <input type="radio" name="colorfavorito" id="morado">
+        </label>
+        <br>
+        <label for="rosado">Rosado
+          <input type="radio" name="colorfavorito" id="rosado">
+        </label>
+      </fieldset>
+    </form>
+
+    <pre>
+      <code>
+        &lt;form>
+          &lt;fieldset>
+            &lt;legend>Color Favorito&lt;/legend>
+            &lt;label for="cafe">Café
+              &lt;input type="radio" name="colorfavorito" id="cafe">
+            &lt;/label>
+            &lt;br>
+            &lt;label for="rojo">Rojo
+              &lt;input type="radio" name="colorfavorito" id="rojo">
+            &lt;/label>
+            &lt;br>
+            &lt;label for="morado">Morado
+              &lt;input type="radio" name="colorfavorito" id="morado">
+            &lt;/label>
+            &lt;br>
+            &lt;label for="rosado">Rosado
+              &lt;input type="radio" name="colorfavorito" id="rosado">
+            &lt;/label>
+          &lt;/fieldset>
+        &lt;/form>
+      </code>
+    </pre>
+
+
+
+    <div><!--Select-->
+      <h3>Select</h3>
+      <p>
+        Este elemento representa un control que proporciona un menú de opciones.
+      </p>
+    </div>
+
+    <form>
+      <label for="nombre-pet">Elija un nombre:</label>
+      <select name="nombre-pets" id="nombre-pet">
+        <option value="#">Por favor elija un nombre para su mascota</option>
+        <option value="#">Noah</option>
+        <option value="#">Pebels</option>
+        <option value="#">Dante</option>
+        <option value="#">Taquito</option>
+        <option value="#">Spider</option>
+        <option value="#">Rico</option>
+      </select>
+    </form>
+
+    <pre>
+      <code>
+        &lt;form>
+          &lt;label for="nombre-pet">Elija un nombre:&lt;/label>
+          &lt;select name="nombre-pets" id="nombre-pet">
+            &lt;option value="#">Por favor elija un nombre para su mascota&lt;/option>
+            &lt;option value="#">Noah&lt;/option>
+            &lt;option value="#">Pebels&lt;/option>
+            &lt;option value="#">Dante&lt;/option>
+            &lt;option value="#">Taquito&lt;/option>
+            &lt;option value="#">Spider&lt;/option>
+            &lt;option value="#">Rico&lt;/option>
+          &lt;/select>
+        &lt;/form>
+      </code>
+    </pre>
+
+    <div><!--textarea-->
+      <h3>Textarea</h3>
+      <p>
+        Este elemento representa un control de edición de texto sin formato de varias líneas,<br>
+        útil cuando desea permitir que los usuarios ingresen una cantidad considerable de texto de forma<br>
+        libre, por ejemplo, un comentario en una revisión o formulario de comentarios.
+      </p>
+    </div>
+
+
+    <form>
+      <label for="coment">Dejanos tus sugerencias:</label>
+      <textarea id="coment" name="dialogue" rows="7" cols="35">
+        Pueden mejorar el servicio al cliente por...
+      </textarea>
+    </form>
+
+    <pre>
+      <code>
+        &lt;form>
+          &lt;label for="coment">Dejanos tus sugerencias:&lt;/label>
+          &lt;textarea id="coment" name="dialogue" rows="7" cols="35">
+            Pueden mejorar el servicio al cliente por...
+          &lt;/textarea>
+        &lt;/form>
+      </code>
+    </pre>
+
+    <hr>
+
+    <div><!--Form Formulario-->
+      <h2>Etiqueta &lt;form></h2>
+      <p>
+        Este elemento representa una sección de documento que contiene controles interactivos para enviar información.
+      </p>
+    </div>
+
+    <form>
+      <div>
+        <label for="nom">Nombre
+          <input id="nom" type="text">
+        </label>
+        <br>
+        <label for="Ape">Apellido
+          <input id="Ape" type="text">
+        </label>
+        <br>
+        <label for="mail">Email
+          <input id="mail" type="email>">
+        </label>
+        <br>
+        <label for="tel">Teléfono
+          <input id="tel" type="tel">
+        </label>
+        <br>
+        <label for="date">Fecha de nacimiento
+          <input id="date" type="date"> 
+        </label>
+      </div>
+
+      <div>
+        <h4>Estado civil</h4>
+        <label for="casado">Casado
+          <input type="radio" name="Estadocivil" id="casado">
+        </label>
+        <label for="soltero">Soltero
+          <input type="radio" name="Estadocivil" id="soltero">
+        </label>
+        <label for="divorciado">Divorciado
+          <input type="radio" name="Estadocivil" id="divorciado">
+        </label>
+        <label for="viudo">Viudo
+          <input type="radio" name="Estadocivil" id="viudo">
+        </label>
+      </div>
+
+      <div>
+        <label for="province">Provincia</label>
+        <select id="province">
+          <option value="0">San Jose</option>
+          <option value="0">Alajuela</option>
+          <option value="0">Heredia</option>
+          <option value="0">Cartago</option>
+          <option value="0">Guanacaste</option>
+          <option value="0">Puntarenas</option>
+          <option value="0">Limon</option>
+        </select>
+      </div>
+
+      <div>
+        <h4>Genero</h4>
+        <label for="m">M
+          <input id="m" type="checkbox">
+        </label>
+        <label for="F">F
+          <input id="F" type="checkbox">
+        </label>
+      </div>
+
+      <div>
+        <label for="file">Archivo
+          <input id="file" type="file">
+        </label>
+      </div>
+
+      <div>
+        <button type="submit">Enviar</button>
+        <button type="reset">Reset</button>>
+      </div>
+
+    </form>
+
+    <pre>
+      <code>
+        &lt;form>
+          &lt;div>
+            &lt;label for="nom">Nombre
+              &lt;input id="nom" type="text">
+            &lt;/label>
+            &lt;br>
+            &lt;label for="Ape">Apellido
+              &lt;input id="Ape" type="text">
+            &lt;/label>
+            &lt;br>
+            &lt;label for="mail">Email
+              &lt;input id="mail" type="email>">
+            &lt;/label>
+            &lt;br>
+            &lt;label for="tel">Teléfono
+              &lt;input id="tel" type="tel">
+            &lt;/label>
+            &lt;br>
+            &lt;label for="date">Fecha de nacimiento
+              &lt;input id="date" type="date"> 
+            &lt;/label>
+          &lt;/div>
+    
+          &lt;div>
+            &lt;h4>Estado civil&lt;/h4>
+            &lt;label for="casado">Casado
+              &lt;input type="radio" name="Estadocivil" id="casado">
+            &lt;/label>
+            &lt;label for="soltero">Soltero
+              &lt;input type="radio" name="Estadocivil" id="soltero">
+            &lt;/label>
+            &lt;label for="divorciado">Divorciado
+              &lt;input type="radio" name="Estadocivil" id="divorciado">
+            &lt;/label>
+            &lt;label for="viudo">Viudo
+              &lt;input type="radio" name="Estadocivil" id="viudo">
+            &lt;/label>
+          &lt;/div>
+    
+          &lt;div>
+            &lt;label for="province">Provincia&lt;/label>
+            &lt;select id="province">
+              &lt;option value="0">San Jose&lt;/option>
+              &lt;option value="0">Alajuela&lt;/option>
+              &lt;option value="0">Heredia&lt;/option>
+              &lt;option value="0">Cartago&lt;/option>
+              &lt;option value="0">Guanacaste&lt;/option>
+              &lt;option value="0">Puntarenas&lt;/option>
+              &lt;option value="0">Limon&lt;/option>
+            &lt;/select>
+          &lt;/div>
+    
+          &lt;div>
+            &lt;h4>Genero&lt;/h4>
+            &lt;label for="m">M
+              &lt;input id="m" type="checkbox">
+            &lt;/label>
+            &lt;label for="F">F
+              &lt;input id="F" type="checkbox">
+            &lt;/label>
+          &lt;/div>
+    
+          &lt;div>
+            &lt;label for="file">Archivo
+              &lt;input id="file" type="file">
+            &lt;/label>
+          &lt;/div>
+    
+          &lt;div>
+            &lt;button type="submit">Enviar&lt;/button>
+            &lt;button type="reset">Reset&lt;/button>>
+          &lt;/div>
+    
+        &lt;/form>
+      </code>
+    </pre>
+
+  </body>
+</html>
