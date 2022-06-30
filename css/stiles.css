@@ -1,183 +1,180 @@
-header{
-  background-color: rgb(2, 2, 57);
+body{
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  background-color: rgb(4, 4, 54);
+  color: white;
 }
 
-main{
-  background-color:  rgb(2, 2, 57);
+.introduction-text{
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
 }
 
-footer{
-  border-radius: 10px;
-  background-color:darkgrey;
+.title-main-section{
+  font-weight: 700;
+  font-size: 150px;
+  line-height: 182px;
 }
 
-.div-form{
-  background-color: #FFC93E;
-  border-radius: 9px;
+.second-title-main-section{
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
 }
 
-ul{
+.anchors-header{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: white;
+}
+
+h2{
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+}
+
+.fan-facts-list-number-data{
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+}
+
+.fan-facts-list-pragraph-data{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.list-flex{
+  display: flex;
   list-style: none;
 }
 
-.list-with-flex{
+.solution-approach-section{
   display: flex;
+  align-content:flex-start;
 }
 
-.solution-approach{
-  background-color: #353F5B;
+.img-solution-approach-section{
+  width: 450px;
+  margin-left: 100px;
+  margin-top: 80px;
+
 }
 
-.title-solution-approach{
-  font-family: 'Inter';
-  font-style: normal;
+.div-img-solutions-approach{
+  background-color: #FFC93E;
+}
+
+.lis-solution-approach-section{
+  width: 1700px;
+  text-align:left;
+  list-style: none;
+  background-color: grey;
+}
+
+.second-titles-solution-approach{
   font-weight: 700;
   font-size: 24px;
   line-height: 29px;
 }
 
-.title-services{
-  font-family: 'Inter';
-  font-style: normal;
+.sub-titles-service-can-help-you{
   font-weight: 600;
   font-size: 30px;
   line-height: 36px;
 }
 
-.title-lastest-projects{
-  font-family: 'Inter';
-  font-style: normal;
+.content-services-writing-branding{
+  display: flex;
+  align-content: space-between;
+}
+
+.content-services-ux-web{
+  display: flex;
+  align-content:space-between;
+}
+
+.box-services{
+  text-align: justify;
+  padding-left: 30px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  margin-top: 30px;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  background-color: grey;
+}
+
+.text-inside-buttom{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.titles-latest-projects{
   font-weight: 600;
   font-size: 24px;
   line-height: 36px;
 }
 
-.text-block{
-  font-family: 'Inter';
-  font-style: normal;
+.title-blog{
   font-weight: 700;
   font-size: 30px;
   line-height: 38px;
 }
 
-h1{
-  color: white;
-  font-family: 'moderna';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 40px;
-  line-height: 65px;
-}
-
-h2{
-  color: white;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 58px;
-  text-transform: capitalize;
-}
-
-h3{
-  color: white;
-}
-
 .title-form{
-  color: black;
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 600;
   font-size: 20px;
-  line-height: 150%
+  line-height: 150%;
 }
 
 .title-address{
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 18px;
 }
 
-.digi-agen{
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 150px;
-  line-height: 182px;
-  text-align: center;
+.buttoms-styles{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: black;
+  background: #FFC93E;
+  border-radius: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
-.wc{
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 36px;
-  text-align: center;
-}
-
-
-.intro-para{
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 40px;
-}
-.anc{
-  color: white;
-}
-
-a{
-  text-decoration: none;
-}
-
-p{
-  color: white;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 30px;
-}
-
-.li-about-us-section{
-  color: white;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 58px;
-}
-
-.pragrap-list-about-us{
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 24px;
-  text-align: center
-}
-
-.div-img-approach{
+.div-form{
   background-color: #FFC93E;
+}
+
+footer{
+  background-color: grey;
+}
+
+.content-blockquote{
+  display: flex;
+  align-content: space-between;
 }
 
 blockquote{
   background-color: grey;
-  border-radius: 10px;
+  padding-left: 15px;
+  border-radius: 30px;
 }
 
-.buttom-stile{
-  background-color: #FFC93E;
-  border-radius: 10px;
-  color: black;
-  text-align: center;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 22px;
+.box-services-border-1{
+  border-bottom-left-radius: 20px;
 }
